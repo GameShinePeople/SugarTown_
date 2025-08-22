@@ -1,0 +1,19 @@
+// 기본 버튼
+
+.btn {
+  position: absolute;
+  width: 182px;
+  height: 53px;
+  //   left: 858px;
+  //   top: 690px;
+
+  background: #6157b8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 30px;
+
+  &:hover {
+    background-color: #968afb;
+    cursor: pointer;
+  }
+}

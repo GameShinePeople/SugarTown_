@@ -1,0 +1,161 @@
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page {
+  /* 메인페이지/홈 */
+
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: #808080;
+  &__container {
+    position: absolute;
+    width: 1068px;
+    height: 800px;
+    left: 186px;
+    top: 150px;
+    background: #e0f2fe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    &__contents {
+      position: relative;
+
+      .comment {
+        /* WELCOME TO */
+
+        position: absolute;
+        width: 396px;
+        height: 66px;
+        left: 53%;
+        transform: translateX(-50%);
+        top: 90px;
+
+        font-family: "Noto Sans";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100px;
+        /* or 250% */
+        text-align: center;
+
+        color: #808080;
+      }
+
+      .title {
+        /* SUGAR TOWN */
+
+        position: absolute;
+        width: auto;
+        height: 300px;
+        left: 6%;
+        transform: translateX(-30%) translateY(70px);
+        top: 150px;
+
+        font-family: "Noto Sans";
+        font-style: italic;
+        font-weight: 700;
+        font-size: 150px;
+        line-height: 150px;
+        /* or 100% */
+        text-align: center;
+
+        color: #fefefe;
+
+        border: none;
+
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4),
+          0px 0px 10px rgba(0, 0, 0, 0.3), 0px 0px 20px rgba(0, 0, 0, 0.2);
+        animation: fadeInUp 1.2s ease-out forwards;
+      }
+
+      .menu {
+        display: flex;
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 40%;
+        top: 500px;
+        background: #ffffff;
+        .start {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 26px;
+          width: 160px;
+          height: 60px;
+          background-color: #bd84fe;
+          border: none;
+          border-radius: 12px;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          color: #ffffff;
+          cursor: pointer;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #a06df0;
+          }
+        }
+        .play {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 91px;
+          width: 160px;
+          height: 60px;
+          background-color: #bd84fe;
+          border: none;
+          border-radius: 12px;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          color: #ffffff;
+          cursor: pointer;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #a06df0;
+          }
+        }
+        .info {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 156px;
+          width: 160px;
+          height: 60px;
+          background-color: #bd84fe;
+          border: none;
+          border-radius: 12px;
+          font-family: "Noto Sans", sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          color: #ffffff;
+          cursor: pointer;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #a06df0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.custom {
+  position: absolute;
+  width: 111.07px;
+  height: 63.86px;
+
+  background: #6157b8;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 110px;
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #968afb;
+    cursor: pointer;
+  }
+}
+
+// 작가홈 버튼
+.creatorhome {
+  left: 55px;
+  top: 490px;
+}
+
+// 각 버튼은 130.51px만큼 차이남.
+
+// 게시물
+
+.introduce {
+  left: 185.51px;
+  top: 490px;
+}
+
+// 방명록
+
+.guestbook {
+  left: 319.02px;
+  top: 490px;
+}
+
+// 다이어리
+
+.diary {
+  left: 449.53px;
+  top: 490px;
+}

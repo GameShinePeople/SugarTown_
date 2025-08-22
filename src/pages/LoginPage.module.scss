@@ -1,0 +1,91 @@
+.page {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+
+  background: #fcceee;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: #808080;
+  .title {
+    // sugartown 로고 위치 수정 필요
+
+    position: absolute;
+    width: 1440px;
+    height: 336px;
+    left: calc(50% - 1440px / 2);
+    top: 66px;
+
+    font-family: "Noto Sans";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 150px;
+    /* or 100% */
+    text-align: center;
+
+    color: #ffffff;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &__container {
+    /* Rectangle 1685 */
+
+    position: absolute;
+    width: 529px;
+    height: 454px;
+    left: 455px;
+    top: 472px;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+
+    .img {
+      /* Rectangle 1686 */
+
+      position: absolute;
+      width: 450px;
+      height: 236px;
+      //495
+      left: 40px;
+      //509
+      top: 40px;
+
+      background: #ebe9fe;
+      border-radius: 30px;
+    }
+    .kakao {
+      /* Group 4 */
+
+      font-weight: bold;
+      position: absolute;
+      width: 450px;
+      height: 50px;
+      left: calc(50% - 450px / 2);
+      top: 300px;
+      background-color: #fee500;
+      border: none;
+      &:hover {
+        background-color: #e1cb00;
+        cursor: pointer;
+      }
+    }
+    .google {
+      /* Group 3 */
+      font-weight: bold;
+      position: absolute;
+      width: 450px;
+      height: 50px;
+      left: calc(50% - 450px / 2);
+      top: 360px;
+      border-color: #f2f2f2;
+      border-bottom-color: #f2f2f2;
+      background-color: #ffffff;
+      &:hover {
+        background-color: #f2f2f2;
+        cursor: pointer;
+      }
+    }
+  }
+}
